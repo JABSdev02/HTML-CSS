@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu propio servidor</p>
+
+    <video src="midia/Meu-Video.Mp4.mp4" width="560" controls></video>
+    <!--Para colocar varios formatos para que seja compativel com todos os sites e so fazer igual esta abaixo-->
+
+    <video controls width="560" autoplay loop>
+        <source src="midia/Meu-Video.Mp4.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.mkv.mkv" type="video/mkv">
+        <source src="midia/Meu-Video.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        <!--Primeiro  ele vai mostrar na ordem, se seu  navegador nao for compativel com mp4 ele vai mostrar o mkv e assim por diante, se nao for compativel com nenhum ele irá exibir o <p>-->.
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=2dFieT5wjWDm0GyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
