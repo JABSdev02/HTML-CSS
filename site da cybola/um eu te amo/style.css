@@ -6,7 +6,7 @@
 main{
     background-color: white;
     box-shadow: 5px 5px 15px #f10a0a94;
-    width: 200px;
+    width: 500px;
     border-radius: 10px;
     padding: 10px;
     margin: auto;
@@ -20,7 +20,7 @@ p{
     text-align: justify;
 }
 body{
-    background-image: pink
+    background-image: lilac
 }
 img{
     border-radius: 10px;
